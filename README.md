@@ -1,8 +1,8 @@
-##Xcode快捷代码
+## Xcode快捷代码
 
 ----------
 
-####简介
+#### 简介
 >   **开发中Xcode常用的快捷代码块, 提高开发效率.** 
 
 #### 添加:  
@@ -135,10 +135,12 @@ typedef void (^<#BlockName#>) (void);
 
 // 表内容偏移: tableView_inset
 self.tableView.contentInset = UIEdgeInsetsMake(<#CGFloat top#>, <#CGFloat left#>, <#CGFloat bottom#>, <#CGFloat right#>);
+
 ```
+
 > 提示: 快捷方式的命名可以自定义,  将Demo中的文件快捷方式名称改为符合自己编码习惯的名称. 
 
-####使用举例:
+#### 使用举例:
 以定义一个有返回值得Block为例子:
 在Xcode中输入 `block`
 
