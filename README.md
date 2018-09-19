@@ -57,7 +57,6 @@ static const <#BasicType#> <#BasicName#> = <#BasicValue#>;
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
 
 }
-*/
 
 // Mark表代理: mark_UITableViewDelegate
 #pragma mark - UITableViewDataSource
