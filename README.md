@@ -1,5 +1,6 @@
-
 ##Xcode快捷代码
+
+----------
 
 ####简介
 >   **开发中Xcode常用的快捷代码块, 提高开发效率.** 
@@ -7,8 +8,7 @@
 #### 添加:  
 1. 关闭Xcode;
 2. 将Demo中的 `CodeSnippets` 文件夹下的文件拷贝到 **~/Library/Developer/Xcode/UserData/CodeSnippets**, 若本地没有`CodeSnippets`文件夹,  则新建一个文件夹, 名字为`CodeSnippets` 然后把文件拷贝在这个文件夹下.
-3. 重新启动Xcode, 可以看到如下图, 则表示已经添加成功;
-![Alt text](./54FFEDE9-37B2-43AB-A459-06C4F692167E.png)
+3. 重新启动Xcode, 可以看到工具栏多出来新增的代码块.
 
 #### 自定义内容:  
 ```objectivec
@@ -136,17 +136,15 @@ typedef void (^<#BlockName#>) (void);
 // 表内容偏移: tableView_inset
 self.tableView.contentInset = UIEdgeInsetsMake(<#CGFloat top#>, <#CGFloat left#>, <#CGFloat bottom#>, <#CGFloat right#>);
 ```
-> 提示: 快捷方式的命名可以自定义,  将Demo中的文件快捷方式名称改为符合自己编码习惯的名称. 即:
-![Alt text](./3A07C90D-ED88-42DF-93F0-8226421149BE.png)
-
+> 提示: 快捷方式的命名可以自定义,  将Demo中的文件快捷方式名称改为符合自己编码习惯的名称. 
 
 ####使用举例:
 以定义一个有返回值得Block为例子:
-在Xcode中输入如图:
-![Alt text](./屏幕快照 2018-09-19 17.27.15.png)
+在Xcode中输入 `block`
 
 回车快捷方式便可得到:
-![Alt text](./屏幕快照 2018-09-19 17.27.53.png)
+`typedef void (^<#BlockName#>) (<#Class#> *<#object#>);`
+
 
 #### 交流与建议
 - GitHub：<https://github.com/BaHui>
